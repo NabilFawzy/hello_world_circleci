@@ -10,7 +10,7 @@ jobs:
        - image: circleci/node:13.8.0 
      steps:
        - run: 
-          print("hello") 
+          echo "hello"
           
         
       
@@ -19,7 +19,7 @@ jobs:
        - image: circleci/node:13.8.0
      steps:
        - run:
-          print("World")
+          echo "World"
 
 # Orchestrate or schedule a set of jobs
 workflows:
